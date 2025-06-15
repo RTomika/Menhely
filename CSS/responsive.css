@@ -1,4 +1,5 @@
 @media only screen and (max-width: 767px) {
+    /*Registration*/
     #submit {
         position: relative;
     }
@@ -38,5 +39,28 @@
     }
     .loginBtn {
         margin-top: 5px;
+    }
+    /*-------*/
+
+
+}
+
+@media only screen and (max-width: 360px) {
+    .pictures {
+        height: 90px;
+        width: 90px;
+    }
+    .dogTextCont a {
+        font-size: 1.35rem;
+    }
+    .dogTextCont ul {
+        padding-left: 15px;
+    }
+    .dogTextCont ul {
+        font-size: 0.9rem;
+    }
+    .arrowRights {
+        font-size: 1.75rem;
+        right: 20px;
     }
 }
